@@ -1,0 +1,240 @@
+Jun 18 17:40 : exception: Failed to open '/home/e45g/.config/mpd/state': No such file or directory
+Jun 18 17:40 : update: added senzawa/drunk. [xhyf4yM3TWw].m4a
+Jun 18 17:40 : update: added senzawa/i got blitzed and sang country road [hqURBTpvh0A].m4a
+Jun 18 17:40 : update: added senzawa/crunchy roll, take me home [fyrK7CCF5yU].m4a
+Jun 18 17:40 : update: added senzawa/the senpai song [v-71KGlRJwM].m4a
+Jun 18 17:40 : update: added senzawa/CREEPER aw man (cover) [_5pgyUpWhgQ].m4a
+Jun 18 17:40 : update: added senzawa/Stressed out - senzawa [3N0pI8xO4gQ].m4a
+Jun 18 17:40 : update: added senzawa/SpOwOky OwOky Pumpkin Song [PFrPrIxluWk].m4a
+Jun 18 17:40 : update: added senzawa/Cups ⧸ When I'm Gone (senzawa cover) [4Pj7nMLmaKw].m4a
+Jun 18 17:40 : update: added senzawa/WELECOME TO INTALY [Jrl4bd0vkng].m4a
+Jun 18 17:40 : update: added senzawa/i turned a bad copypasta into a bad rap [h6DNdop6pD8].m4a
+Jun 18 17:40 : update: added senzawa/i turned a bad copypasta into a bad rap again [xmDqILHP4is].m4a
+Jun 18 17:40 : update: added senzawa/Tide Pod-chan sings Gucci Gang - Deleted Senzawa video [az95BGVc4uM].m4a
+Jun 18 17:40 : update: added senzawa/Moo - deleted senzawa video [dBM-gZMtwqo].m4a
+Jun 18 17:40 : update: added senzawa/Old Town Road [cover] [lCEvOMyrN04].m4a
+Jun 18 17:40 : update: added senzawa/oki doki boomer [dWNvlyycWzQ].m4a
+Jun 18 17:40 : update: added senzawa/the mcnugget rap [2JYpbMe8jCo].m4a
+Jun 18 17:40 : update: added senzawa/HEY WEEABOO - Deleted Senzawa Video [sn-_HSN3mhk].m4a
+Jun 18 17:40 : update: added senzawa/Renai Circulation - senzawa cover [PO94dHafFO0].m4a
+Jun 18 17:40 : update: added senzawa/uwuesketit [Gq8F7dzf_qA].m4a
+Jun 18 17:40 : update: added senzawa/bitch lasagnya [cover] [fYzwAoD1KI0].m4a
+Jun 18 17:40 : update: added senzawa/i wanna be a cowboy [8zWz92f_HGs].m4a
+Jun 18 17:40 : update: added senzawa/hA HA honk - senzawa twitter video [WaODTVYoEqA].m4a
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 17:43 : exception: Failed to open "mpd alsamixer-output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 17:44 : player: played "senzawa/Tide Pod-chan sings Gucci Gang - Deleted Senzawa video [az95BGVc4uM].m4a"
+Jun 18 18:08 : player: played "senzawa/Tide Pod-chan sings Gucci Gang - Deleted Senzawa video [az95BGVc4uM].m4a"
+Jun 18 18:16 : update: added Lilith/Nightcore - Redemption ｜ Besomorph & RIELL (Lyrics) [DIqA7feLGA8].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - Dance Again (Lyrics) (Sped up) [pJyp32vF-18].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - MONEY ON THE DASH (Lyrics) (Sped up) [1SZ2zFErBXk].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - S&M (Lyrics) (Sped up) [m4rX_mnerEw].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - I Kissed A Girl (Lyrics) (Remix) [N8XM2NxgiAw].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - Yummy (Lyrics) (Sped up) [WUkVeDf2ks0].m4a
+Jun 18 18:16 : update: added Lilith/Nightcore - Fool (Lyrics) (Sped up) [wBXwEZjCuL8].m4a
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:17 : exception: Failed to open "mpd alsamixer-output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:17 : exception: Failed to open "mpd alsamixer-output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : player: played "Lilith/Nightcore - Dance Again (Lyrics) (Sped up) [pJyp32vF-18].m4a"
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:19 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : exception: Failed to open "default detected output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:20 : player: played "Lilith/Nightcore - Dance Again (Lyrics) (Sped up) [pJyp32vF-18].m4a"
+Jun 18 18:26 : player: played "Lilith/Nightcore - Dance Again (Lyrics) (Sped up) [pJyp32vF-18].m4a"
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:26 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:27 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:31 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : player: played "Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a"
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "plughw:0,0": No such file or directory
+Jun 18 18:32 : player: played "Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a"
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : player: played "Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a"
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : player: problems opening audio device while playing "senzawa/bitch lasagnya [cover] [fYzwAoD1KI0].m4a"
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "hw:0,0": No such file or directory
+Jun 18 18:33 : player: played "Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a"
+Jun 18 18:35 : player: played "Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a"
+Jun 18 18:36 : player: played "senzawa/bitch lasagnya [cover] [fYzwAoD1KI0].m4a"
+Jun 18 18:36 : config: option 'server' on line 17 was not recognized
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+Jun 18 18:37 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:37 : exception: Failed to open "MPD ALSA Output" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 18 18:42 : player: played "senzawa/bitch lasagnya [cover] [fYzwAoD1KI0].m4a"
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:42 : exception: Failed to open "MPD pulse Output" (pulse); failed to connect: Connection refused
+Jun 18 18:43 : player: played "Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a"
+Jun 18 18:51 : player: played "Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a"
+Jun 18 18:53 : player: played "Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a"
+Jun 18 18:54 : player: played "senzawa/Tide Pod-chan sings Gucci Gang - Deleted Senzawa video [az95BGVc4uM].m4a"
+Jun 18 18:57 : player: played "Lilith/Nightcore - Dance Again (Lyrics) (Sped up) [pJyp32vF-18].m4a"
+Jun 18 18:59 : player: played "Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a"
+Jun 18 19:01 : player: played "Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a"
+Jun 18 19:04 : player: played "senzawa/hA HA honk - senzawa twitter video [WaODTVYoEqA].m4a"
+Jun 18 19:07 : player: played "senzawa/i got blitzed and sang country road [hqURBTpvh0A].m4a"
+Jun 18 19:12 : player: played "Lilith/Nightcore - MONEY ON THE DASH (Lyrics) (Sped up) [1SZ2zFErBXk].m4a"
+Jun 18 19:13 : player: played "Lilith/Nightcore - I Kissed A Girl (Lyrics) (Remix) [N8XM2NxgiAw].m4a"
+Jun 18 19:15 : player: played "Lilith/Nightcore - Redemption ｜ Besomorph & RIELL (Lyrics) [DIqA7feLGA8].m4a"
+Jun 18 19:18 : player: played "Lilith/Nightcore - Yummy (Lyrics) (Sped up) [WUkVeDf2ks0].m4a"
+Jun 18 19:21 : player: played "Lilith/Nightcore - MONEY ON THE DASH (Lyrics) (Sped up) [1SZ2zFErBXk].m4a"
+Jun 18 19:22 : player: played "Lilith/Nightcore - I Kissed A Girl (Lyrics) (Remix) [N8XM2NxgiAw].m4a"
+Jun 18 19:24 : player: played "senzawa/Tide Pod-chan sings Gucci Gang - Deleted Senzawa video [az95BGVc4uM].m4a"
+Jun 18 20:32 : player: played "Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a"
+Jun 18 20:34 : player: played "Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a"
+Jun 18 20:36 : player: played "Lilith/Nightcore - Redemption ｜ Besomorph & RIELL (Lyrics) [DIqA7feLGA8].m4a"
+Jun 18 20:38 : player: played "Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a"
+Jun 18 20:40 : player: played "Lilith/Nightcore - I Kissed A Girl (Lyrics) (Remix) [N8XM2NxgiAw].m4a"
+Jun 18 20:42 : player: played "senzawa/bitch lasagnya [cover] [fYzwAoD1KI0].m4a"
+Jun 18 20:45 : player: played "Lilith/Nightcore - S&M (Lyrics) (Sped up) [m4rX_mnerEw].m4a"
+Jun 18 20:45 : player: played "senzawa/hA HA honk - senzawa twitter video [WaODTVYoEqA].m4a"
