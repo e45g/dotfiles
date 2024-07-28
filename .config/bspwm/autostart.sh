@@ -3,4 +3,4 @@ dunst &
 $HOME/.config/polybar/launch.sh --docky &
 
 
-feh --bg-scale $HOME/Pictures/Wal/background_cars.jpg
+feh --bg-scale $HOME/.config/bspwm/wallpaper.png

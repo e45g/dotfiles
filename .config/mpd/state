@@ -1,9 +1,9 @@
-sw_volume: 100
+sw_volume: 48
 audio_device_state:1:MPD pulse Output
 audio_device_state:1:toggle_visualizer
 state: play
 current: 1
-time: 100.553000
+time: 124.666000
 random: 1
 repeat: 1
 single: 0
@@ -12,16 +12,13 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:senzawa/bitch lasagnya [cover] [fYzwAoD1KI0].m4a
-1:senzawa/CREEPER aw man (cover) [_5pgyUpWhgQ].m4a
-2:senzawa/Tide Pod-chan sings Gucci Gang - Deleted Senzawa video [az95BGVc4uM].m4a
-3:Lilith/Nightcore - Dance Again (Lyrics) (Sped up) [pJyp32vF-18].m4a
-4:Lilith/Nightcore - Don't Say Goodbye (Lyrics) (Sped up) [1s6kpBMBfJw].m4a
-5:Lilith/Nightcore - E.T (Lyrics) (Sped up) [mhHVbBHcnLs].m4a
-6:Lilith/Nightcore - MONEY ON THE DASH (Lyrics) (Sped up) [1SZ2zFErBXk].m4a
-7:Lilith/Nightcore - I Kissed A Girl (Lyrics) (Remix) [N8XM2NxgiAw].m4a
-8:senzawa/hA HA honk - senzawa twitter video [WaODTVYoEqA].m4a
-9:senzawa/i got blitzed and sang country road [hqURBTpvh0A].m4a
-10:Lilith/Nightcore - S&M (Lyrics) (Sped up) [m4rX_mnerEw].m4a
-11:Lilith/Nightcore - Redemption ｜ Besomorph & RIELL (Lyrics) [DIqA7feLGA8].m4a
+0:instrumental/Tony Ann - PULSE (Official Visualizer) [m08E_Kzob_A].m4a
+1:instrumental/Beethoven - Moonlight Sonata (1st Movement) [sbTVZMJ9Z2I].m4a
+2:instrumental/Ludovico Einaudi - Experience [_VONMkKkdf4].m4a
+3:instrumental/Lindsey Stirling - Carol of the Bells [dBuUiaUVWyw].m4a
+4:instrumental/Eminem - Mockingbird (Piano Cover) [BsxagQghWd0].m4a
+5:instrumental/Eminem - Slim Shady But It's Actually Epic And Beautiful [y-6c6T7qPPg].m4a
+6:instrumental/Beethoven - Für Elise (Piano Version) [q9bU12gXUyM].m4a
+7:instrumental/Lost - Tony Ann ｜ Piano Tutorial [O_ptiNwaKfw].m4a
+8:instrumental/＂The Pixies＂ - Maxence Cyrin [KFiScXBMR7E].m4a
 playlist_end

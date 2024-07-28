@@ -30,6 +30,8 @@ unfocused_hollow = false
 [font]
 size = 10
 offset = {x=0, y=0}
+glyph_offset = { x = 0, y = 0}
+
 [font.italic]
 family = "JetBrains Mono Nerd Font"
 
@@ -42,6 +44,10 @@ program = "/bin/zsh"
 
 [window]
 dynamic_padding = false
-decorations = "None"
-padding = {x=0, y=0}
+dynamic_title = false
+decorations = "none"
 opacity=1.0
+
+[window.padding]
+x = 0
+y = 0
