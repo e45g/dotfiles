@@ -72,6 +72,12 @@ super + bracket{left,right}
 
 # focus the last node/desktop
 super + {grave,Tab}
+    if [ "$(xprop -id $(xdotool getactivewindow) WM_CLASS | grep -i 'discord')" ]; then \
+        $HOME/.config/sxhkd/bspwm_discord & \
+        while ! pgrep -x "bspwm_discord" > /dev/null; do \
+        sleep 0.1 && \
+        done; \
+    fi; \
 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
