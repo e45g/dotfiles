@@ -5,8 +5,11 @@ require "nvchad.options"
 local o = vim.o
 o.termguicolors = true
 
+o.title = true
+
 o.tabstop = 4
 o.shiftwidth = 4
 o.expandtab = true
 o.relativenumber = true
 o.cursorlineopt ='both' -- to enable cursorline!
+o.scrolloff = 10

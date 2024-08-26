@@ -1,4 +1,0 @@
-backend = "glx";
-vsync = true;
-use-damage = true;
-unredir-if-possible = true;

@@ -238,3 +238,49 @@ Jun 18 20:40 : player: played "Lilith/Nightcore - I Kissed A Girl (Lyrics) (Remi
 Jun 18 20:42 : player: played "senzawa/bitch lasagnya [cover] [fYzwAoD1KI0].m4a"
 Jun 18 20:45 : player: played "Lilith/Nightcore - S&M (Lyrics) (Sped up) [m4rX_mnerEw].m4a"
 Jun 18 20:45 : player: played "senzawa/hA HA honk - senzawa twitter video [WaODTVYoEqA].m4a"
+Jul 29 10:36 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Jul 29 10:36 : exception: Failed to open '/home/e45g/.config/mpd/playlists/senzawa.m3u': No such file or directory
+Jul 29 10:36 : exception: No such playlist
+Jul 29 10:36 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:25 : exception: Failed to open '/home/e45g/.config/mpd/playlists/unsorted.m3u': No such file or directory
+Aug 13 20:25 : exception: No such playlist
+Aug 13 20:27 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:27 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:29 : update: added phonk/BACK2BACK [NWCNpCHeMf0].m4a
+Aug 13 20:29 : update: added instrumental/Tony Ann - PULSE (Official Visualizer) [m08E_Kzob_A].m4a
+Aug 13 20:29 : update: added instrumental/Beethoven - Moonlight Sonata (1st Movement) [sbTVZMJ9Z2I].m4a
+Aug 13 20:29 : update: added instrumental/Ludovico Einaudi - Experience [_VONMkKkdf4].m4a
+Aug 13 20:29 : update: added instrumental/Lindsey Stirling - Carol of the Bells [dBuUiaUVWyw].m4a
+Aug 13 20:29 : update: added instrumental/Eminem - Mockingbird (Piano Cover) [BsxagQghWd0].m4a
+Aug 13 20:29 : update: added instrumental/Eminem - Slim Shady But It's Actually Epic And Beautiful [y-6c6T7qPPg].m4a
+Aug 13 20:29 : update: added instrumental/Beethoven - Für Elise (Piano Version) [q9bU12gXUyM].m4a
+Aug 13 20:29 : update: added instrumental/Lost - Tony Ann ｜ Piano Tutorial [O_ptiNwaKfw].m4a
+Aug 13 20:29 : update: added instrumental/＂The Pixies＂ - Maxence Cyrin [KFiScXBMR7E].m4a
+Aug 13 20:29 : update: added unsorted/Elley Duhé & Whethan - MONEY ON THE DASH - SPED UP (Audio) [5D597frOWhI].m4a
+Aug 13 20:29 : update: added unsorted/This Music is D-E-A-D [PDBZA_zKn9s].m4a
+Aug 13 20:29 : update: added unsorted/Liana Flores - rises the moon [4ulbaSwsfKU].m4a
+Aug 13 20:29 : update: added unsorted/The Velvet Underground - After Hours [fND_Y6OgsDs].m4a
+Aug 13 20:29 : update: added unsorted/Nerissa - Say My Name『original song』 [x_fkTc7Hlp0].m4a
+Aug 13 20:29 : update: added unsorted/Just The Two Of Us [52avIJWQWAY].m4a
+Aug 13 20:29 : update: added unsorted/messages from the stars ━ rah band  ( sped up ) [6Q0z7lVMmYc].m4a
+Aug 13 20:30 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:30 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:30 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:30 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:30 : exception: Failed to open /home/e45g/.config/mpd/playlists: No such file or directory
+Aug 13 20:33 : player: played "unsorted/Nerissa - Say My Name『original song』 [x_fkTc7Hlp0].m4a"
+Aug 13 20:35 : player: played "unsorted/Elley Duhé & Whethan - MONEY ON THE DASH - SPED UP (Audio) [5D597frOWhI].m4a"
+Aug 13 20:39 : player: played "unsorted/Just The Two Of Us [52avIJWQWAY].m4a"
+Aug 13 20:41 : player: played "unsorted/Liana Flores - rises the moon [4ulbaSwsfKU].m4a"

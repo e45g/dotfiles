@@ -3,8 +3,8 @@
 #
 
 # terminal emulator
-ctrl + alt + t
-	alacritty
+ctrl + alt + {_, shift +}t
+    {kitty, alacritty} 
 
 # program launcher
 super + @space
@@ -81,8 +81,14 @@ super + {o,i}
 	bspc wm -h on
 
 # focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+super + {_,shift + }{1-6}
+    if [ "$(xprop -id $(xdotool getactivewindow) WM_CLASS | grep -i 'discord')" ]; then \
+        $HOME/.config/sxhkd/bspwm_discord & \
+        while ! pgrep -x "bspwm_discord" > /dev/null; do \
+        sleep 0.1 && \
+        done; \
+    fi; \
+    bspc {desktop -f,node -d} '^{1-6}'
 
 #
 # preselect
@@ -122,13 +128,13 @@ super + {Left,Down,Up,Right}
 
 #firefox
 super + alt + @space
-    firefox
+    librewolf 
 
 Print
-    maim -s | xclip -selection clipboard -t image/png
+    maim -su | xclip -selection clipboard -t image/png
 
 shift + Print
-    maim | xclip -selection clipboard -t image/png
+    maim -u | xclip -selection clipboard -t image/png
 
 XF86MonBrightness{Up,Down}
     brightnessctl s 10{+,-}
@@ -136,3 +142,13 @@ XF86MonBrightness{Up,Down}
 
 XF86Audio{Raise,Lower}Volume
     pulsemixer --change-volume {+,-}10
+
+super + shift + space
+  /bin/bash -c "$HOME/.config/sxhkd/change_keymap.sh"
+
+super + shift + d
+    if [ "$(xprop -id $(xdotool getactivewindow) WM_CLASS | grep -i 'discord')" ]; then \
+        notify-send "Discord is the focused window"; \
+    else \
+        notify-send "The focused window is not Discord"; \
+    fi
