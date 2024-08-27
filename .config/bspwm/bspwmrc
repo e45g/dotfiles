@@ -30,3 +30,4 @@ bspc config pointer_follows_monitor true
 bspc config ignore_ewmh_focus true
 
 bspc rule -a discord desktop="^4" follow=off focus=off
+bspc rule -a bspwm_discord state=floating

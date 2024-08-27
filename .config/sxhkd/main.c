@@ -14,7 +14,7 @@ int main(void) {
     }
     
     int screen = DefaultScreen(display);
-    Window window = XCreateSimpleWindow(display, RootWindow(display, screen), 0, 0, 100, 100, 0, 0, 0);
+    Window window = XCreateSimpleWindow(display, RootWindow(display, screen), 0, 0, 1, 1, 0, 0, 0);
     XMapWindow(display, window);
 
     XClassHint *ch = XAllocClassHint();
@@ -24,7 +24,7 @@ int main(void) {
     XFree(ch);
 
     XFlush(display);
-    sleep(1);
+    usleep(0.5 * 1000 * 1000);
 
     XCloseDisplay(display);
 
