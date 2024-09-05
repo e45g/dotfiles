@@ -82,5 +82,6 @@ bindkey '5~' kill-word
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
-eval "neofetch"
+# eval "neofetch"
+$HOME/scripts/terrysay/target/debug/terrysay  
 zmodload zsh/zprof

@@ -152,9 +152,6 @@ XF86Audio{Raise,Lower}Volume
 super + shift + space
   /bin/bash -c "$HOME/.config/sxhkd/change_keymap.sh"
 
-super + shift + d
-    if [ "$(xprop -id $(xdotool getactivewindow) WM_CLASS | grep -i 'discord')" ]; then \
-        notify-send "Discord is the focused window"; \
-    else \
-        notify-send "The focused window is not Discord"; \
-    fi
+super + d
+  kitty $HOME/scripts/pipes/target/debug/pipes -s 25
+  bspc node -t fullscreen
