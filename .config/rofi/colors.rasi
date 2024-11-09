@@ -1,0 +1,7 @@
+* {
+    background:                  #101010E0;
+    background-alt:              #303030E0;
+    foreground:                  #dddddd;
+    selected:                    rgba(255, 255, 255, 0.1);
+    text:                        #ffffff;
+}

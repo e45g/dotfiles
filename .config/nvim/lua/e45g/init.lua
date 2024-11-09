@@ -2,7 +2,8 @@ require("e45g.set")
 require("e45g.remap")
 require("e45g.lazy_init")
 
-vim.cmd.colorscheme("gruvbox")
+--vim.cmd.colorscheme("habamax")
+vim.cmd.colorscheme("kanagawa-dragon")
 
 
 local augroup = vim.api.nvim_create_augroup
@@ -58,3 +59,9 @@ autocmd('LspAttach', {
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
+
+vim.filetype.add({
+    extension = {
+        cx = "c_html",
+    }
+})

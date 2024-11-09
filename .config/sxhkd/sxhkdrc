@@ -4,11 +4,11 @@
 
 # terminal emulator
 ctrl + alt + {_, shift +}t
-    {kitty, alacritty} 
+    {kitty, alacritty}
 
 # program launcher
 super + @space
-	$HOME/.config/rofi/scripts/launcher_t2
+	$HOME/.config/rofi/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -134,7 +134,7 @@ super + {Left,Down,Up,Right}
 
 #firefox
 super + alt + @space
-    librewolf 
+    librewolf
 
 Print
     maim -su | xclip -selection clipboard -t image/png

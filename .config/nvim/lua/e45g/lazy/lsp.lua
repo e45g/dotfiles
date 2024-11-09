@@ -43,6 +43,8 @@ return {
                 "rust_analyzer",
                 "clangd",
                 "gopls",
+                "html",
+                "asm_lsp",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
@@ -66,6 +68,21 @@ return {
                     vim.g.zig_fmt_parse_errors = 0
                     vim.g.zig_fmt_autosave = 0
 
+                end,
+                ["clangd"] = function()
+                    local lspconfig = require("lspconfig")
+                    lspconfig.clangd.setup {
+                        capabilities = capabilities,
+                        cmd = {
+                            "clangd",
+                            "--header-insertion=iwyu",  -- Use include-what-you-use
+                            "--header-insertion-decorators",
+                            "--clang-tidy",
+                            -- Add this flag to ensure C files are treated as C
+                            "--query-driver=/usr/bin/gcc",  -- Adjust path if needed
+                        },
+                        filetypes = { "c", "cpp", "objc", "objcpp", "cuda" },
+                    }
                 end,
                 ["lua_ls"] = function()
                     local lspconfig = require("lspconfig")
@@ -118,13 +135,13 @@ return {
                 },
 
                 ["<Tab>"] = cmp.mapping(function(fallback)
-                  if cmp.visible() then
-                    cmp.select_next_item()
-                  elseif require("luasnip").expand_or_jumpable() then
-                    require("luasnip").expand_or_jump()
-                  else
-                    fallback()
-                  end
+                    if cmp.visible() then
+                        cmp.select_next_item()
+                    elseif require("luasnip").expand_or_jumpable() then
+                        require("luasnip").expand_or_jump()
+                    else
+                        fallback()
+                    end
                 end, { "i", "s" }),
 
                 ["<S-Tab>"] = cmp.mapping(function(fallback)
@@ -137,10 +154,10 @@ return {
                   end
                 end, { "i", "s" }),
               },
-            sources = cmp.config.sources({
+                sources = cmp.config.sources({
                 { name = 'nvim_lsp' },
                 { name = 'luasnip' }, -- For luasnip users.
-            }, {
+                }, {
                 { name = 'buffer' },
             })
         })

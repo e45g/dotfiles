@@ -3,16 +3,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
- 
+
 int main(void) {
     XEvent e;
 
     Display *display = XOpenDisplay(NULL);
     if (display == NULL) {
-        fprintf(stderr, "Cannot open display\n"); 
+        fprintf(stderr, "Cannot open display\n");
         exit(1);
     }
-    
+
     int screen = DefaultScreen(display);
     Window window = XCreateSimpleWindow(display, RootWindow(display, screen), 0, 0, 1, 1, 0, 0, 0);
     XMapWindow(display, window);

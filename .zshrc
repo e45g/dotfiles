@@ -83,5 +83,13 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
 # eval "neofetch"
-$HOME/scripts/terrysay/target/debug/terrysay  
-zmodload zsh/zprof
+# $HOME/scripts/terrysay/target/debug/terrysay
+
+export PATH=/home/e45g/Projects/c/runner/bin:$PATH
+
+# bun completions
+[ -s "/home/e45g/.bun/_bun" ] && source "/home/e45g/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

@@ -5,10 +5,9 @@ return {
         require("nvim-treesitter.configs").setup({
             -- A list of parser names, or "all"
             ensure_installed = {
-                "vimdoc", "javascript", "typescript", "c", "lua", "rust",
-                "jsdoc", "bash",
+               "vimdoc", "javascript", "typescript", "c", "lua", "rust",
+                "jsdoc", "bash", "html", "css", "asm", "rasi"
             },
-
             -- Install parsers synchronously (only applied to `ensure_installed`)
             sync_install = false,
 
@@ -29,6 +28,9 @@ return {
                 -- Using this option may slow down your editor, and you may see some duplicate highlights.
                 -- Instead of true it can also be a list of languages
                 additional_vim_regex_highlighting = { "markdown" },
+                custom_captures = {
+                    ["c_html"] = {"c", "html"},
+                },
             },
         })
 
@@ -42,5 +44,7 @@ return {
         }
 
         vim.treesitter.language.register("templ", "templ")
+
+        require("e45g.cx")
     end
 }
