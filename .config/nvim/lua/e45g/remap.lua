@@ -1,6 +1,10 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+vim.keymap.set('n', '<leader><tab>', ':tabnew <C-r>=input("Enter file: ")<CR><CR>', { noremap = true, silent = false })
+vim.keymap.set("n", "<tab>", '<cmd>tabn<CR>', { noremap = true, silent = true })
+vim.keymap.set("n", "<s-tab>", '<cmd>tabp<CR>', { noremap = true, silent = true })
+
 vim.api.nvim_set_keymap('n', '<leader>rf', '<cmd>lua vim.lsp.buf.rename()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', { noremap = true, silent = true })
 

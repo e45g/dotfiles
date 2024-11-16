@@ -3,7 +3,7 @@ require("e45g.remap")
 require("e45g.lazy_init")
 
 --vim.cmd.colorscheme("habamax")
-vim.cmd.colorscheme("kanagawa-dragon")
+vim.cmd.colorscheme("midnight")
 
 
 local augroup = vim.api.nvim_create_augroup

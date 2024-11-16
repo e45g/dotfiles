@@ -87,14 +87,14 @@ super + {o,i}
 	bspc wm -h on
 
 # focus or send to the given desktop
-super + {_,shift + }{1-6}
+super + {_,shift + }{1-9}
     if [ "$(xprop -id $(xdotool getactivewindow) WM_CLASS | grep -i 'discord')" ]; then \
         $HOME/.config/sxhkd/bspwm_discord & \
         while ! pgrep -x "bspwm_discord" > /dev/null; do \
         sleep 0.1 && \
         done; \
     fi; \
-    bspc {desktop -f,node -d} '^{1-6}'
+    bspc {desktop -f,node -d} '^{1-9}'
 
 #
 # preselect

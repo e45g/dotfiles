@@ -14,6 +14,10 @@ return {
         "erikbackman/brightburn.vim",
     },
     {
-        'dasupradyumna/midnight.nvim', lazy = false, priority = 1000
+        'dasupradyumna/midnight.nvim',
     },
+    {
+        "slugbyte/lackluster.nvim",
+    },
+
 }
