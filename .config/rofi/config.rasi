@@ -1,0 +1,10 @@
+configuration {
+    modi:              "drun,window,run"; // Modes: Apps (drun), Window Switcher, Commands (run)
+    show-icons:        true;             // Display icons in drun mode
+    font:              "sans 14";        // Set a basic font (change if desired)
+    hover-select:      true;             // Select entry under mouse cursor
+    me-select-entry:   "";               // Don't use mouse Back/Forward buttons for selection
+    // me-accept-entry:   "MousePrimary";   // Accept entry on primary mouse click
+}
+
+@theme "Arc-Dark"

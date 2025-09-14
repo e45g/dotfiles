@@ -1,0 +1,44 @@
+#! /bin/sh
+
+# ensure sxhkd is running
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# remove existing rules
+bspc rule -r "*"
+
+# autostart scripts
+~/.config/bspwm/autostart.sh &
+# feh --bg-scale $HOME/.config/bspwm/wallpapers/2.png
+
+# aesthetics
+bspc config window_gap 0
+bspc config top_padding 0
+
+# borders
+ bspc config border_width 0 # thin border for minimal framing
+ bspc config focused_border_color "#BBBBBB" # subtle highlight
+ bspc config normal_border_color "#101010" # blend with background
+
+# behavior
+bspc config ignore_ewmh_focus true
+
+# split ratios & monocle
+bspc config split_ratio 0.55
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+
+# pointer behavior
+bspc config pointer_motion_interval 10ms
+bspc config focus_follows_pointer true
+bspc config pointer_follows_focus false
+bspc config pointer_follows_monitor true
+
+# rules for specific apps
+bspc rule -a discord desktop="^4" follow=off focus=off
+bspc rule -a bspwm_discord state=floating
+bspc rule -a "hehe" state=floating
+bspc rule -a librewolf desktop="^3" follow=off
+bspc rule -a feh state=floating
+bspc rule -a mpv state=floating center=on # floating video player
+bspc rule -a rofi state=floating center=on # rofi matches
+bspc rule -a thunar state=floating
