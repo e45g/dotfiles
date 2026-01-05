@@ -28,7 +28,25 @@ return {
 
         require('mason-lspconfig').setup({
             ensure_installed = { 'clangd', 'lua_ls', 'texlab' },
-            automatic_installation = true,
+            automatic_installation = false,
+            handlers = {
+                gopls = function()
+                    require('lspconfig').gopls.setup({
+                        capabilities = capabilities,
+                        on_attach = on_attach,
+                        settings = {
+                            gopls = {
+                                analyses = {
+                                    unusedparams = true,
+                                    shadow = true,
+                                },
+                                staticcheck = true,
+                                gofumpt = true,
+                            },
+                        },
+                    })
+                end,
+            }
         })
 
         -- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -160,8 +178,8 @@ return {
             sources = cmp.config.sources({
                 { name = 'path' }
             }, {
-                { name = 'cmdline' }
-            })
+                    { name = 'cmdline' }
+                })
         })
 
         -- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -184,9 +202,9 @@ return {
             settings = {
                 texlab = {
                     build = {
-                        executable = "pdflatex",  -- directly use pdflatex
+                        executable = "pdflatex",
                         args = { "-interaction=nonstopmode", "%f" },
-                        onSave = false,           -- we don’t need auto-build; VimTeX handles it
+                        onSave = false,
                         forwardSearchAfter = true,
                     },
                     forwardSearch = {
@@ -194,8 +212,12 @@ return {
                         args = { "%p", "%f", "%l" },
                     },
                     lint = {
-                        onEdit = true,
+                        onEdit = true,     -- Syntax check ON
                         onSave = true,
+                    },
+                    chktex = {
+                        onEdit = false,    -- chktex OFF (jen falešná varování)
+                        onSave = false,
                     },
                 },
             },

@@ -3,14 +3,14 @@ version = 3
 final_space = true
 
 [secondary_prompt]
-  template = '❯❯ '
-  foreground = 'magenta'
+  template = 'λλ '
+  foreground = 'blue'
   background = 'transparent'
 
 [transient_prompt]
-  template = '❯ '
+  template = 'λ '
   background = 'transparent'
-  foreground_templates = ['{{if gt .Code 0}}red{{end}}', '{{if eq .Code 0}}magenta{{end}}']
+  foreground_templates = ['{{if gt .Code 0}}red{{end}}', '{{if eq .Code 0}}blue{{end}}']
 
 [[blocks]]
   type = 'prompt'
@@ -19,7 +19,7 @@ final_space = true
 
   [[blocks.segments]]
     template = '{{ .Path }}'
-    foreground = 'blue'
+    foreground = 'cyan'
     background = 'transparent'
     type = 'path'
     style = 'plain'
@@ -62,11 +62,11 @@ final_space = true
   newline = true
 
   [[blocks.segments]]
-    template = '❯'
+    template = 'λ'
     background = 'transparent'
     type = 'text'
     style = 'plain'
-    foreground_templates = ['{{if gt .Code 0}}red{{end}}', '{{if eq .Code 0}}magenta{{end}}']
+    foreground_templates = ['{{if gt .Code 0}}red{{end}}', '{{if eq .Code 0}}blue{{end}}']
 
     [blocks.segments.properties]
       cache_duration = 'none'

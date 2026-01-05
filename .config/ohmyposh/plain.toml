@@ -1,0 +1,74 @@
+version = 3
+final_space = true
+console_title_template = "{{.Shell}} in {{.Folder}}"
+
+[[blocks]]
+type = "prompt"
+alignment = "left"
+
+[[blocks.segments]]
+type = "os"
+style = "plain"
+foreground = "#8B8B8B"
+template = "{{ if eq .OS \"windows\" }}󰍲{{ else if eq .OS \"darwin\" }}{{ else }}{{ end }} "
+
+[[blocks.segments]]
+type = "path"
+style = "plain"
+foreground = "#E8E8E8"
+template = "{{ .Path }}"
+
+[blocks.segments.properties]
+style = "full"
+max_depth = 3
+
+[[blocks.segments]]
+type = "git"
+style = "plain"
+foreground = "#A8A8A8"
+template = " {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} ✎{{ end }}"
+
+[blocks.segments.properties]
+fetch_status = false
+fetch_upstream_icon = true
+
+[[blocks.segments]]
+type = "node"
+style = "plain"
+foreground = "#90EE90"
+template = " ⬢ {{ .Full }}"
+
+[blocks.segments.properties]
+fetch_version = false
+
+[[blocks.segments]]
+type = "python"
+style = "plain"
+foreground = "#FFD700"
+template = " 🐍 {{ .Venv }}"
+
+[blocks.segments.properties]
+fetch_virtual_env = true
+
+[[blocks]]
+type = "prompt"
+alignment = "right"
+
+[[blocks.segments]]
+type = "exit"
+style = "plain"
+foreground = "#FF6B6B"
+template = "✕ {{ .Code }} "
+
+[blocks.segments.properties]
+always_enabled = false
+
+[[blocks]]
+type = "prompt"
+alignment = "left"
+
+[[blocks.segments]]
+type = "text"
+style = "plain"
+foreground = "#D0D0D0"
+template = "❯ "
