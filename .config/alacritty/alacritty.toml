@@ -1,0 +1,36 @@
+[window]
+padding = {x = 0, y = 0}
+decorations = "None"
+opacity = 1.0
+
+[font]
+normal = {family = "Iosevka", style = "Regular"}
+
+[colors]
+[colors.primary]
+background = '#000000'
+foreground = '#e0e0e0'
+
+[colors.cursor]
+text = '#000000'
+cursor = '#707070'
+
+[colors.normal]
+black =   '#666666'
+red =     '#ff6c6b'
+green =   '#98be65'
+yellow =  '#ecbe7b'
+blue =    '#51afef'
+magenta = '#c678dd'
+cyan =    '#46d9ff'
+white =   '#abb2bf'
+
+[colors.bright]
+black =   '#999999'
+red =     '#ff6666'
+green =   '#befa8c'
+yellow =  '#f0d197'
+blue =    '#a9a1e1'
+magenta = '#d291e4'
+cyan =    '#82e2ff'
+white =   '#ffffff'

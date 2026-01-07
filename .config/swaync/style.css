@@ -1,0 +1,100 @@
+/* Void Palette */
+@define-color bg            #000000;
+@define-color bg-alt        #0a0a0a;
+@define-color fg            #ffffff;
+@define-color fg-dim        #666666;
+@define-color border-color  #222222;
+
+* {
+  color: @fg;
+  all: unset;
+  font-family: "monospace";
+  transition: 150ms;
+}
+
+.control-center {
+  background: @bg;
+  border: 1px solid @border-color;
+  margin: 10px;
+  padding: 15px;
+}
+
+/* --- DND (Silence) Widget --- */
+.widget-dnd {
+  background: @bg-alt;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid @border-color;
+}
+
+.widget-dnd > label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* The DND Switch */
+.widget-dnd switch {
+  background: @border-color;
+  padding: 2px;
+}
+
+.widget-dnd switch slider {
+  background: @fg;
+}
+
+.widget-dnd switch:checked {
+  background: @fg; /* Switch turns white when DND is on */
+}
+
+.widget-dnd switch:checked slider {
+  background: @bg;
+}
+
+/* --- MPRIS (Audio Player) --- */
+.widget-mpris {
+  background: @bg-alt;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid @border-color;
+}
+
+.widget-mpris-player {
+  padding: 5px;
+}
+
+.widget-mpris-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.widget-mpris-subtitle {
+  color: @fg-dim;
+  font-size: 12px;
+}
+
+/* Player Controls */
+.widget-mpris-player button {
+  background: transparent;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.widget-mpris-player button:hover {
+  color: @fg-dim;
+}
+
+/* --- Notifications --- */
+.notification {
+  background: @bg;
+  margin-top: 10px;
+  border-bottom: 1px solid @border-color;
+  padding: 10px;
+}
+
+.notification .summary {
+  font-weight: bold;
+}
+
+.notification .body {
+  color: @fg-dim;
+}

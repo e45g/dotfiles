@@ -2,7 +2,7 @@ require("config.set")
 require("config.remap")
 require("config.lazy_init")
 
-vim.cmd.colorscheme("github_dark_default")
+vim.cmd.colorscheme("sunbather")
 
 local autocmd = vim.api.nvim_create_autocmd
 

@@ -1,0 +1,26 @@
+{
+    "$schema": "/etc/xdg/swaync/configschema.json",
+    "positionX": "right",
+    "positionY": "top",
+    "control-center-width": 380,
+    "notification-window-width": 350,
+    "transition-time": 150,
+    "hide-on-clear": true,
+
+    "widgets": [
+      "mpris",
+      "dnd",
+      "notifications"
+    ],
+
+    "widget-config": {
+        "dnd": {
+            "text": "Silence"
+        },
+        "mpris": {
+            "image-size": 90,
+            "image-radius": 0,
+            "autohide": false
+        }
+    }
+}

@@ -1,0 +1,42 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Iosevka";
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #dcdcdc;
+    border-bottom: 1px solid #262626; /* Very subtle separation */
+}
+
+#workspaces button {
+    padding: 0 10px;
+    color: #555555; /* Dim inactive workspaces */
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background-color: #1a1a1a;
+    box-shadow: inset 0 -2px 0 #ffffff; /* Clean white underline */
+}
+
+#clock, #pulseaudio, #battery {
+    padding: 0 12px;
+    color: #dcdcdc;
+}
+
+/* Subtle grayscale accents */
+#pulseaudio {
+    color: #a6a6a6;
+}
+
+#battery {
+    color: #808080;
+}
+
+#battery.critical {
+    color: #ffffff;
+    background-color: #333333; /* Dark highlight instead of red */
+}
