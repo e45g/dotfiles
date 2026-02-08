@@ -130,7 +130,7 @@ return {
                     elseif luasnip.expand_or_jumpable() then
                         luasnip.expand_or_jump()
                     else
-                        vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<Tab>", true, true, true), "n", true)
+                        fallback()  -- This uses the default Tab behavior (insert spaces)
                     end
                 end, { 'i', 's' }),
 

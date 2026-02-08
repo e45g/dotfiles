@@ -3,7 +3,7 @@ set $left h
 set $down j
 set $up k
 set $right l
-set $term alacritty
+set $term kitty
 set $menu wofi
 
 output * bg #000000 solid_color
@@ -13,7 +13,7 @@ output * scale 1.25
 # Input
 input type:keyboard {
     xkb_layout us,cz
-    xkb_variant colemak
+    # xkb_variant colemak
     xkb_options grp:alt_shift_toggle
     repeat_delay 300
     repeat_rate 50
@@ -21,6 +21,10 @@ input type:keyboard {
 
 input type:pointer {
     accel_profile flat
+}
+
+input type:touchpad {
+    dwt disabled
 }
 
 # Window borders and gaps
