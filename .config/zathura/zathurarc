@@ -1,0 +1,47 @@
+set font 'monospace normal 10'
+set selection-clipboard clipboard
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+map p print
+set selection-clipboard clipboard
+
+set default-bg                "#0f0f0f"
+set default-fg                "#f4decd"
+
+set statusbar-bg              "#272a28"
+set statusbar-fg              "#f4decd"
+set inputbar-bg               "#141514"
+set inputbar-fg               "#f4decd"
+
+set notification-bg           "#272a28"
+set notification-fg           "#f4decd"
+set notification-error-bg     "#f16e65"
+set notification-error-fg     "#0f0f0f"
+set notification-warning-bg   "#efbf71"
+set notification-warning-fg   "#0f0f0f"
+
+set highlight-color           "#efbf7180"
+set highlight-active-color    "#ef934d"
+
+set completion-bg             "#1e1f1e"
+set completion-fg             "#f4decd"
+set completion-group-bg       "#272a28"
+set completion-group-fg       "#ef934d"
+set completion-highlight-bg   "#ef934d"
+set completion-highlight-fg   "#0f0f0f"
+
+set index-bg                  "#141514"
+set index-fg                  "#f4decd"
+set index-active-bg           "#ef934d"
+set index-active-fg           "#0f0f0f"
+
+set recolor                   true
+set recolor-lightcolor        "#0f0f0f"
+set recolor-darkcolor         "#f4decd"
+set recolor-keephue           true
